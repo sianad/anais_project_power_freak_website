@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* structures */
+@import "structure.css";
+
+/* components */
+@import "main.css";
+/* @import "components/texts.css"; */
+
+/* parts */
+/* @import "parts/page--head.css"; */
+/* @import "parts/page--anchors.css"; */
+/* @import "parts/page--content.css"; */
+/* @import "parts/page--foot.css"; */
