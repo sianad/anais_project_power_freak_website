@@ -1,0 +1,18 @@
+.section_made{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+.section_made img{
+  width:50vw;
+  height: auto;
+  flex: 1
+}
+.section_made h1{
+  color:#ffffff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  flex: 2;
+
+}

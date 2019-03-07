@@ -1,21 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css?family=Caveat+Brush&subset=latin-ext');
-
-@font-face {
-    font-family: 'aileronblack';
-    src: url('../fonts/aileron-black-webfont.woff2') format('woff2'),
-         url('../fonts/aileron-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'aileronlight';
-    src: url('../fonts/aileron-light-webfont.woff2') format('woff2'),
-         url('../fonts/aileron-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
 
 *{
   padding: 0;
@@ -29,10 +15,7 @@ html {
 }
 
 body {
-  font-family: 'aileronlight';
   font-size: 100%;
-  background-image: url(../images/background_main.png);
-  background-size: cover;
 }
 
 /* --------------- Resets */

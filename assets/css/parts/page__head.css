@@ -1,0 +1,31 @@
+/** ******************* LOGO ****************** **/
+.page_head{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.head_logo{
+  margin-top:5vh;
+}
+.head_flag{
+  right:0;
+  position: absolute;
+  margin: 2vh 5vw;
+}
+
+/** ******************* NAV_BAR ****************** **/
+.nav_bar {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top:5vh;
+
+}
+.nav_bar ul li a{
+  padding: 0vh 3VW;
+  font-family: 'Francois One', sans-serif;
+  font-size: 1.6em;
+}
+.nav_bar a{
+  color:#000000;
+  text-transform: uppercase;
+}

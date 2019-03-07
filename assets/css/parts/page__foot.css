@@ -1,0 +1,39 @@
+.page_foot h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #dd565c;
+  font-family: 'Francois One', sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 0.2em;
+  padding-top: 5vh;
+}
+.social_media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+.icon_facebook, .icon_insta{
+  padding-right: 5vw;
+}
+
+/** MENTIONS **/
+.mentions{
+  background-image: url(../../images/background_footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mentions li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+.mentions li a{
+  padding-right: 5vw;
+  padding-bottom: 2vh;
+  padding-left: 5vw;
+  font-family: 'Francois One', sans-serif;
+  color: #ffffff;
+  line-height: 5vh;
+}

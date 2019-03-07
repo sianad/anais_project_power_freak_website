@@ -1,6 +1,7 @@
-/*main.page_content{
+main.page_content{
   background-image: url(../images/background_main.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: auto;
-}*/
+  background-position: top center;
+  margin-top: 5vh;
+}

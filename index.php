@@ -10,14 +10,20 @@
       <div class="wrapper">
 
         <header class="page_head">
-          <div class="logo">
-            <figure>
-              <img src="images/PW19_logo.png" alt="logo">
-              <img src="images/language_flag.png" alt="language">
-            </figure>
-          </div>
 
-          <nav class="nav_barre">
+          <section class="head_logo">
+              <figure>
+                <img src="images/PW19_logo.png" alt="logo">
+              </figure>
+          </section>
+
+          <section class="head_flag">
+              <figure>
+                <img src="images/language_flag.png" alt="language" width="60">
+              </figure>
+          </section>
+
+          <nav class="nav_bar">
             <ul>
               <li>
                 <a href="#" title="power freak">Power Freak</a>
@@ -27,49 +33,125 @@
               </li>
             </ul>
           </nav>
+
         </header>
+      <!-- HEADER -->
 
         <main class="page_content">
 
-          <div class="container">
-            <section class="page_new">
-              <div class="picture_new">
-                <img src="images/old_vs_new.png" alt="cannette vs bouteille" width="100">
-                <h1>POWERFREAK SE FAIT UN NOUVEL ECO-LOOK !</h1>
+            <section class="section_new">
+
+              <div class="container">
+
+                <div class="picture">
+                  <img src="images/old_vs_new.png" alt="cannette vs bouteille" width="200">
+                  <h1>powerfreak se fait <br>un nouvel éco-look !</h1>
+                </div>
+
+                <div class="content">
+                  <div class="strong_point">
+                    <p>100% naturel</p>
+                    <figure>
+                      <img src="images/sprout_white.svg" alt="sprout" width="60">
+                    </figure>
+                  </div>
+
+                  <div class="strong_point">
+                    <p>Éco-responsable <br>Recyclable</p>
+                    <figure>
+                      <img src="images/leaves_white.svg" alt="leaves" width="60">
+                    </figure>
+                  </div>
+
+                  <div class="strong_point">
+                    <p>Swiss made</p>
+                    <figure>
+                      <img src="images/suisse_flag.svg" alt="suisse flag" width="60">
+                    </figure>
+                  </div>
+                </div>
+
               </div>
 
-              <div class="text">
-                <p>100% naturel</p>
-                <img src="images/sprout_white.svg" alt="sprout" width="20">
-                <p>Éco-responsable</p>
-                <p>Recyclable</p>
-                <img src="images/leaves_white.svg" alt="leaves" width="20">
-                <p>Swiss made</p>
-                <img src="images/suisse_flag.svg" alt="suisse flag" width="20">
-              </div>
             </section>
+          <!-- SECTION_NEW -->
 
-            <div class="container">
               <section class="slider">
-                <div class="flexslider">
-                      <ul class="slides">
-                        <li>
-                          <h1> Slide 1 </h1>
-                          <p> Lorem ipsum</p>
-                        </li>
-                        <li>
-                          <h1> Slide 2 </h1>
-                          <p> Lorem ipsum</p>
-                        </li>
-                        <li>
-                          <h1> Slide 3 </h1>
-                          <p> Lorem ipsum</p>
-                        </li>
-                      </ul>
-                    </div>
+
+                <div class="container">
+                    <div class="flexslider">
+
+                          <ul class="slides">
+                            <li class="slide_1">
+                              <h1>2 goûts 100% naturels</h1>
+                              <figure>
+                                <img src="images/icon_fruits.png" alt="icon fruits" width="200">
+                              </figure>
+                            </li>
+                            <li class="slide_2">
+                              <h1> Framboise </h1>
+                              <figure>
+                                <img src="images/picture_raspberry.png" alt="picture raspberry " width="200">
+                              </figure>
+                            </li>
+                            <li class="slide_3">
+                              <h1> Pamplemousse <br>rose </h1>
+                              <figure>
+                                <img src="images/icon_grapefruit.png" alt="icon grapefruit" width="200">
+                              </figure>
+                            </li>
+                          </ul>
+
+                      </div>
+                  </div>
+
               </section>
-          </div>
-        </main>
+            <!-- SLIDER -->
+
+              <section class="section_made">
+                  <h1>UNE BOISSON ENERGISANTE MADE IN VALAIS</h1>
+                  <figure>
+                    <img src="images/mountain.png" alt="mountain picture" width="150">
+                  </figure>
+              </section>
+            <!-- PAGE_PICTURE -->
+          </main>
+
+
+              <footer class="page_foot">
+                <h1> Suivez nous</h1>
+                <div class="social_media">
+
+                  <figure class="icon_facebook">
+                    <a href="https://www.facebook.com/" target="_blank" title="facebook">
+                      <img src="images/icon_fb.png" alt="icon facebook" width="60">
+                    </a>
+                  </figure>
+                  <figure class="icon_insta">
+                    <a href="https://www.instagram.com" target="_blank" title="instagram">
+                      <img src="images/icon_insta.png" alt="icon instagram" width="80">
+                    </a>
+                  </figure>
+                  <figure class="icon_share">
+                    <a href="#" target="_blank" title="share">
+                      <img src="images/share.svg" alt="arrow share" width="80">
+                    </a>
+                  </figure>
+                </div>
+
+                <div class="mentions">
+                  <ul>
+                    <li>
+                      <a href="#" title="mentions légales">Mentions légales</a>
+                      <a href="#" title="copyright">Copyright</a>
+                    </li>
+                  </ul>
+                </div>
+              </footer>
+            <!-- FOOTER -->
+
+
+
 
 
 
