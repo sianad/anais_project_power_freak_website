@@ -10,6 +10,7 @@
 /* parts */
 @import "parts/page__head.css";
 @import "parts/page__content.css";
+@import "parts/page__section.css";
 @import "parts/page__slide.css";
 @import "parts/page__made.css";
 @import "parts/page__foot.css";

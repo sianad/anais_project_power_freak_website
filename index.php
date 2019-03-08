@@ -26,10 +26,10 @@
           <nav class="nav_bar">
             <ul>
               <li>
-                <a href="#" title="power freak">Power Freak</a>
-                <a href="#" title="recyclage">Recyclage</a>
-                <a href="#" title="shop">Shop</a>
-                <a href="#" title="contactez nous">Contactez-nous</a>
+                <a href="about.php" title="power freak">Power Freak</a>
+                <a href="recyclage.php" title="recyclage">Recyclage, une priorité</a>
+                <a href="https://www.organicsbyredbull.com/ch/fr" target="_blank" title="shop">Shop</a>
+                <a href="contact.php" title="contactez nous">Contactez-nous</a>
               </li>
             </ul>
           </nav>
@@ -150,17 +150,13 @@
               </footer>
             <!-- FOOTER -->
 
-
-
-
-
-
-
-
-
-
-
       </div>
+
+      <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+          $('.flexslider').flexslider();
+        });
+      </script>
     </body>
 
 </html>
