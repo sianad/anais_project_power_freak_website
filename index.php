@@ -4,6 +4,8 @@
         <?php include 'partials/head.php'; ?>
         <title>Power Freak</title>
         <meta name="description" content="Description de la page" />
+
+  
     </head>
 
     <body>
@@ -152,11 +154,5 @@
 
       </div>
 
-      <script type="text/javascript" charset="utf-8">
-        $(window).load(function() {
-          $('.flexslider').flexslider();
-        });
-      </script>
-    </body>
 
 </html>

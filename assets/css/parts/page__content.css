@@ -4,8 +4,16 @@
     justify-content: center;
   }
 }
-
-/** *********** PICTURE*********** **/
+/* ************ BACKGROUND ************ */
+.page_content{
+  background-image: url(../../images/background_main.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 25vh;
+  margin-top: -10vh;
+}
+/* ************ PICTURE ************ */
 .section_new .picture {
   flex: 3;
 }
@@ -24,7 +32,7 @@
   font-family: 'Amatic SC', cursive;
 }
 
-/** *********** STRONG POINT*********** **/
+/* ************ STRONG POINT ************ */
 
 .section_new .content{
   padding: 5vh 15vw;
